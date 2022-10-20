@@ -1,5 +1,5 @@
 <?php
-
+    //TEERA
     $name = "Teera Binkasem";
     echo strlen($name);
     echo "<br>";
