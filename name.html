@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตรวจสอบเพศ</title>
+</head>
+<body>
+    <h2>ระบบตรวจสอบเพศของผู้สมัคร</h2>
+    <form action="check.php" method="post">
+        คำนำหน้า &nbsp; 
+        <select name="prefix">
+            <option value="นาย">นาย</option>
+            <option value="นาง">นาง</option>
+            <option value="นางสาว">นางสาว</option>
+            <option value="เด็กชาย">เด็กชาย</option>
+            <option value="เด็กหญิง">เด็กหญิง</option>
+        </select>
+        <br>
+        <input type="submit" value="ตรวจสอบ">
+    </form>
+</body>
+</html>
